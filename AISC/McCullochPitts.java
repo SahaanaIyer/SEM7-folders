@@ -1,6 +1,6 @@
 import java.util.*;
 
-class mc_culloch_pitts {
+class McCullochPitts {
 
     public static int[] x1 = new int[]{0,0,1,1};
     public static int[] x2 = new int[]{0,1,0,1};
