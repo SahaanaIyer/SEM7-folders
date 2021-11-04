@@ -1,0 +1,10 @@
+clc;
+clear all;
+close all;
+a=imread('pout.tif');
+subplot(2,1,1);
+imshow(a);
+b=255;
+c=b-a;
+subplot(2,1,2);
+imshow(c);
